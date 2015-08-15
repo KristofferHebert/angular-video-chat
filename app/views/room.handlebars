@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AngularJS Vide Chat</title>
+    <script src="http://cdn.icecomm.io/icecomm.js" ></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="/js/socket.min.js"></script>
+    <script type="text/javascript" src="/js/main.js"></script>
+    <script type="text/javascript" src="/js/factories/socket.js"></script>
+    <script type="text/javascript" src="/js/directives/uservideo.js"></script>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+    <link rel="stylesheet" type="text/css" href="/css/main.min.css">
+</head>
+<body ng-app="app" ng-controller="MainCtrl">
+    <header class="header">
+        <div class="home-menu pure-menu">
+            <a href="{{baseUrl}}">AngularJS Video Chat</a>
+        </div>
+    </header>
+    <main class="content room">
+        <h2>Welcome to room: {{room}}</h2>
+        <form class="pure-form"><input type="text" value="{{baseUrl}}/{{room}}" class="pure-input-1-3"></form>
+
+    <user-videos></user-videos>
+    </main>
+</body>
+</html>
+
+</html>

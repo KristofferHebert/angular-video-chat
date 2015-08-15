@@ -1,0 +1,70 @@
+.home-menu {
+    padding: 0.5em 2em;
+    background: #333;
+    text-align: center;
+}
+
+.home-menu a {
+    color: #FFF;
+    line-height: 3em;
+    min-height: 3em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.content {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pure-form {
+    max-width: 49em;
+    margin: auto;
+}
+
+.user-videos {
+    width: 100%;
+    clear: both;
+    list-style: none;
+}
+
+.user-videos li {
+    width: 33%;
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+.user-video-local {
+    border: 5px solid green;
+    box-sizing: border-box;
+}
+
+video {
+    width: 100%;
+}
+
+.mtl {
+    margin-top: 2em;
+}
+
+.list-unstyled {
+    padding: 0;
+    margin: inherit 0;
+    list-style: none;
+}
+
+@media screen (max-width: 32em) {
+    /* Large Phone */
+}
+
+@media screen (min-width: 32em) and (max-width: 49em) {
+    /* Tablet CSS */
+}
+
+@media screen and (min-width: 49em) {
+    .home-menu {
+        text-align: left;
+    }
+}

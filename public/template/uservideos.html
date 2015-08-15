@@ -1,0 +1,6 @@
+<ul class="user-videos">
+    <li ng-if="!!local"><video autoplay class="user-video-local" ng-src="[[local.stream]]"></video></li>
+    <li ng-repeat="peer in peers">
+        <video autoplay ng-src="[[peer.stream]]"></video>
+    </li>
+</ul>

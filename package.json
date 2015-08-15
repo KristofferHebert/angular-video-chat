@@ -1,0 +1,23 @@
+{
+  "name": "angular-video-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js -e js,css,html,handlebars"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.13.1",
+    "express": "^4.13.0",
+    "express-handlebars": "^2.0.1",
+    "shortid": "^2.2.2",
+    "socket.io": "^1.3.5"
+  },
+  "devDependencies": {
+    "karma": "^0.12.37",
+    "pm2": "^0.14.1"
+  }
+}
